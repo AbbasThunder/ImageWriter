@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +19,7 @@ namespace ImageWriter
         public Form1()
         {
             InitializeComponent();
+            saveBtn.Hide();
         }
 
         private void ImageBox_Click(object sender, EventArgs e)
@@ -38,6 +41,7 @@ namespace ImageWriter
                 colorHex = colorThief.GetColor(ImageBox.Image as Bitmap).Color.ToHexString() ;
                 DrawNewImage();
                 MessageBox.Show($"text : {Message.Text}", "Succss", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                saveBtn.Show();
             }
             
         }
@@ -56,6 +60,7 @@ namespace ImageWriter
                     graphics.DrawString(Message.Text,arialFont, GetTextColor(),cords);
                 }
                 imageWithTextBox.Image = bitmap;
+                imageWithTextBox.BackgroundImageLayout = ImageLayout.Stretch;
             }
             
         }
@@ -67,7 +72,13 @@ namespace ImageWriter
             return new SolidBrush((System.Drawing.Color)conv.ConvertFromString(colorHex));
         }
 
-       
+        private void saveBtn_Click(object sender, EventArgs e)
+        {
+            
+            string path = Application.StartupPath + "\\"  + "Pictures\\" + Guid.NewGuid().ToString() + ".jpeg";
+            imageWithTextBox.Image.Save(path, ImageFormat.Jpeg);
+            MessageBox.Show("Image Saved in: " + path);
+        }
     }
 
   

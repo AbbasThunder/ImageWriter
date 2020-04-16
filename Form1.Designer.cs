@@ -34,6 +34,7 @@
             this.imageWithTextBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.saveBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ImageBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageWithTextBox)).BeginInit();
             this.SuspendLayout();
@@ -92,11 +93,22 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Image With Text";
             // 
+            // saveBtn
+            // 
+            this.saveBtn.Location = new System.Drawing.Point(584, 415);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(172, 72);
+            this.saveBtn.TabIndex = 6;
+            this.saveBtn.Text = "Save New Image";
+            this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(845, 517);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.imageWithTextBox);
@@ -120,6 +132,7 @@
         private System.Windows.Forms.PictureBox imageWithTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button saveBtn;
     }
 }
 
