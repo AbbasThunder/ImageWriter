@@ -1,0 +1,13 @@
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\bin\Debug\ImageWriter.exe.config
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\bin\Debug\ImageWriter.exe
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\bin\Debug\ImageWriter.pdb
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.csprojAssemblyReference.cache
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.Form1.resources
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.Properties.Resources.resources
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.csproj.GenerateResource.cache
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.exe
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.pdb
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\bin\Debug\ColorThief.Desktop.v46.dll
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\bin\Debug\ColorThief.Desktop.v46.pdb
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\bin\Debug\ColorThief.Desktop.v46.xml
+C:\Users\AbbasIQ\source\repos\ImageWriter\ImageWriter\obj\Debug\ImageWriter.csproj.CopyComplete
